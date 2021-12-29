@@ -4,7 +4,7 @@ import Day2 from '../assets/showDate/30-12-19.jpg'
 import Day3 from '../assets/showDate/17-01-20.jpg'
 import Day4 from '../assets/showDate/12-04-20.jpg'
 
-export default () => (
+ const ImgCarousel=() => (
   <Carousel
     autoPlay
     showThumbs={false}
@@ -26,3 +26,5 @@ export default () => (
     </div>
   </Carousel>
 );
+
+export default ImgCarousel;
